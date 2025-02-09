@@ -1,0 +1,152 @@
+   
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinnacle Legal Counsel</title>
+    <link rel="icon" href="images/pinnaclelogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="contact.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav> 
+     <ul class="sidebar">
+       <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e1a52e"><path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="about.html">About Us</a></li>
+       <li><a href="services.html"> Our Services</a></li>
+       <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <ul class="navbar">
+      <li><a href="#"><img src="images/pinnaclelogo.png" width="50px" height="50px"><strong>Pinnacle Legal Counsel</strong></a></li>
+      <li class="hideOnMobile"><a href="index.html">Home</a></li>
+      <li class="hideOnMobile"><a href="index.html">About</a></li>
+      <li class="hideOnMobile"><a href="services.html">Services</a></li>
+      <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e1a52e"><path d="M120-240v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+   </ul>
+  </nav>
+  <!--Header-->
+  <header>
+              <video src="images/Contactvideo.mp4" autoplay muted loop playsinline class="background-video"></video>
+
+    <div class="header-content">
+      <h2>Get in Touch with Us</h1>
+      <div class="line"></div>
+      <h1>Contact Us Today</h1>
+          <p>We provide expert legal counsel and tailored solutions to safeguard your rights and interests. Whether you're facing a legal challenge
+            or planning for the future, our dedicated team is here to guide you every step of the way!
+          </p>
+        
+    </div>
+  </header>
+
+    <div class="line"></div>
+    
+   
+
+    <div class="contact-body">
+        <div class="contact-info">
+            <div>
+                <span><i class="fas fa-mobile-alt"></i></span>
+                <span>Phone No.</span>
+                <span class="text">+1-2392-23928-2</span>
+            </div>
+            <div>
+                <span><i class="fas fa-envelope-open"></i></span>
+                <span>E-mail:</span>
+                <span class="text">pinnaclelegal@yahoo.com</span>
+            </div>
+            <div>
+                <span><i class="fas fa-map-marker-alt"></i></span>
+                <span>Address</span>
+                <span class="text">2939 Patrick Street, Victoria, TX, United States</span>
+            </div>
+            <div>
+                <span><i class="fas fa-clock"></i></span>
+                <span>Opening Hours</span>
+                <span class="text">Monday - Friday (9:00 AM to 5:00 PM)</span>
+            </div>
+        </div>
+
+        <div class="contact-form">
+          <form action="https://formspree.io/f/mjkkylrl" method="POST">
+                <div>
+                <input type="text" class="form-control" placeholder="First Name" name="firstname" required>
+                <input type="text" class="form-control" placeholder="Last Name" name="lastname" required>
+                </div>
+                <div>
+                <input type="email" class="form-control" placeholder="Email" name="email" required>
+                <input type="tel" class="form-control" placeholder="Phone No." name="phone">
+                </div>
+               <textarea rows="5" class="form-control" placeholder="Message" name="message"></textarea>
+               <input type="hidden" name="_redirect" value="http://127.0.0.1:5500/thankyou.html">
+                <input type="submit" class="send-btn" value="send message">
+        </form>  
+
+        <div>
+          <img src="images/contactgavel.png" class="contact-gavel">
+        </div>
+        </div>
+      </div>
+
+      <div class=""></div>
+  
+  <!--Footer Section-->
+<footer>
+  <div class="footer-container">
+    <div class="footer-content">
+      <h3>Contact Us</h3>  
+      <p>Email: pinnaclelegal@yahoo.com</p>
+      <p>Phone: +1-2392-23928-2</p>
+      <p>Address: 2939 Patrick Street, Victoria, TX, United States</p>
+    </div>
+    <div class="footer-content">
+      <h3>Quick Links</h3>
+      <ul class="footer-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-content">
+      <h3>Follow Us</h3>
+      <ul class="social-icons">
+      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+  
+  </div>
+  <div class="bottom-bar">
+      <p>&copy; 2024 <strong>Pinnacle Legal Counsel</strong>. All rights reserved</p>
+    </div>
+</footer>
+
+
+  <script>
+      function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+
+
+  </script><script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!--Custom Js Script-->
+  <script src="script.js"></script>
+</body>
+  
